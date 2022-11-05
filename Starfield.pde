@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  background(64);
+  background(0);
   for (int i = 0; i < bobs.length; i++) {
     bobs[i].explosion();
     bobs[i].show();
